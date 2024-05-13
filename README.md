@@ -181,8 +181,6 @@
 
 ---
 
-
-
 * [武大i2Nav开源](http://i2nav.cn/index/newListDetail_zw.do?newskind_id=13a8654e060c40c69e5f3d4c13069078&newsinfo_id=9fe50feadb3a499ea5c5e5bbd32ff9e1)：武大i2Nav这几套数据质量很高，有详细的说明、配套的开源程序、论文、参考真值。
   * [i2NAV-awesome-gins-datasets](https://github.com/i2Nav-WHU/awesome-gins-datasets)：本数据集采集于湖北省武汉市一处工业园区，为开阔天空场景，GNSS  RTK定位良好。数据集包括GNSS定位结果、IMU原始数据和高精度参考真值，以及对应的噪声参数和安装参数。本数据集最大的特点是提供了四种不同型号的MEMS  IMU数据，包括消费级MEMS芯片和工业级MEMS模块。相关论文见：https://arxiv.org/abs/2109.03010。
   * [Wheel-INS](https://github.com/i2Nav-WHU/Wheel-INS)： 本数据集采集于武汉大学校园，实验载体分别为轮式机器人和汽车，参考系统为高精度GNSS/INS组合导航系统。数据集包括车轮安装MEMS IMU原始数据，车身安装MEMS IMU原始数据，里程计数据（速度）和位姿参考真值。本数据集同时开源了相关的基于车轮安装IMU的航迹推算系统代码。相关论文见：https://doi.org/10.1109/TVT.2021.3102409、https://doi.org/10.1109/TVT.2021.3108008。
@@ -191,9 +189,7 @@
 
 ---
 
-
-
-* [武大USI开源](https://github.com/WHU-USI3DV)：武大国重杨必胜的城市空间智能（USI）研究小组，
+* [武大USI开源](https://github.com/WHU-USI3DV)：武大国重杨必胜的城市空间智能（USI）研究小组
   * [WHU-TLS](https://github.com/WHU-USI3DV/WHU-TLS)：大型三维激光扫描仪数据，由115个扫描点组成，总计超过1.74亿个三维点，采集自11种不同环境（即地铁站、高铁站台、山地、森林、公园、校园、住宅、河岸、文物建筑、地下挖掘和隧道），点密度、杂波和遮挡情况各不相同。还为研究人员提供了地面实况变换、Dong 等人（2018 年）计算的变换以及配准图，目的是在一个共同的基础上更好地比较和了解不同配准方法的优缺点。我们希望该基准能满足研究界的需求，并成为开发前沿 TLS 点云注册方法的重要数据集。此外，建议的基准还能为铁路安全运行、河流调查与治理、森林结构评估、文化遗产保护、滑坡监测和地下资产管理等应用提供合适的数据集。数据申请网址：https://wj.qq.com/s2/12803941/a30e，相关论文：https://doi.org/10.1016/j.isprsjprs.2020.03.013。
   * [WHU-Helmet](https://github.com/kafeiyin00/WHU-HelmetDataset)： 头盔式多源融合SLAM数据集（GNSS/IMU/Camera/Lidar），采集包括采集自11组不同环境的数据（即地铁站、高铁站台、山地、森林、公园、校园、住宅、河岸、文物建筑、地下挖掘和隧道）。提供了  LiDAR-IMU，LiDAR-Camera 的外参和 Camera 的内参。数据以 Rosbag 形式给出，可以运行在 [fast-lio2](https://github.com/hku-mars/FAST_LIO) 下运行的配置文件， 在 [Fast_lio](https://github.com/hku-mars/FAST_LIO)、[LIO_Livox](https://github.com/Livox-SDK/LIO-Livox)、[LOAM_Livox](https://github.com/hku-mars/loam_livox) 和 [MULLS](https://github.com/YuePanEdward/MULLS) 都进行了测试并给出了测试结果。相关论文：https://doi.org/10.1109/TGRS.2023.3275307。
   * [WHU-Urban-3D](https://whu3d.com/)：数据集广泛覆盖了机载和移动激光扫描点云，为三维深度学习算法的发展提供了一个独特而富有挑战性的平台。该数据集是在中国熙熙攘攘的大都市中精心采集的，城市场景的复杂性和可变性极高。通过WHU-Urban3D，我们旨在弥补高质量数据集的有限可用性与现实世界室外环境中对三维场景理解日益增长的需求之间的差距。我们希望通过提供注释丰富、内容广泛的数据集，鼓励研究人员探索新的前沿领域，推动三维深度学习应用的发展，从而为令人兴奋的研究想法和创新发展提供更多机会。相关论文：https://doi.org/10.1016/j.isprsjprs.2024.02.007。
